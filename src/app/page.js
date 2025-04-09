@@ -1,5 +1,11 @@
-import Image from "next/image";
+import Scrollingcontainer from "@/components/Scrollingcontainer";
+import Cardcontainer from "@/components/Cardcontainer";
 
 export default function Home() {
-  return <></>;
+  return (
+    <div>
+      <Scrollingcontainer />
+      <Cardcontainer />
+    </div>
+  );
 }
