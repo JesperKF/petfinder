@@ -3,7 +3,7 @@ import Cardcontainer from "@/components/Cardcontainer";
 
 export default function Home() {
   return (
-    <div>
+    <div className="min-w-0">
       <Scrollingcontainer />
       <Cardcontainer />
     </div>

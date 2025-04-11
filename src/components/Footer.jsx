@@ -27,7 +27,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
-{
-  /* <Link className={`rounded-4xl hover:bg-white hover:text-[#B6CCDA] px-8 py-0.5 self-center ${currentPage === "/iwatch" ? "bg-white text-[#B6CCDA]": ""}`} href="/iwatch">iWatch</Link> */
-}
